@@ -1,0 +1,17 @@
+max@bumax:~$ cat >> pets
+dog
+cat
+hamster
+max@bumax:~$ cat >> pack_animals
+horse
+camel
+donkey
+max@bumax:~$ cat pets pack_animals >> mans_friends
+max@bumax:~$ cat mans_friends
+dog
+cat
+hamster
+horse
+camel
+donkey
+max@bumax:~$ mv mans_friends mans_best_friends
